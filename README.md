@@ -2,11 +2,11 @@
 
 1: Install Python (3.10+)
 
-2️2: Install required libraries
+2️: Install required libraries
 
   pip install google-generativeai requests
 
-3️3: Open your Python file
+3️: Open your Python file
 
   Paste your Gemini API key 
   Paste your Weather API key directly in code
