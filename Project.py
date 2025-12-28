@@ -7,10 +7,8 @@ from datetime import datetime
 # Configure Gemini Client
 # -------------------------
 client = genai.Client(
-    #Here i provide my Api key But i Will Exhuast Shortly 
-    api_key="AIzaSyAEiGuCRT3rDhZB6-E6zwgbfF3koKMSlq0"  # Replace with your Gemini API key
     
-    # api_key="YOUR_GEMINI_API_KEY"  # Replace with your Gemini API key
+    api_key="YOUR_GEMINI_API_KEY"  # Replace with your Gemini API key
 )
 
 # -------------------------
@@ -159,3 +157,4 @@ while True:
         )
     )
     run_agent()
+
